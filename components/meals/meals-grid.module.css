@@ -1,0 +1,23 @@
+.meals {
+    width: 90%;
+    max-width: 90rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-gap: 5rem;
+    margin: 2rem auto;
+    list-style: none;
+    padding: 0;
+  }
+
+  .noMeals {
+    gap: 3rem;
+    margin: 3rem auto 5rem auto;
+    width: 90%;
+    max-width: 75rem;
+    color: #ddd6cb;
+    font-size: 1.5rem;
+  }
+
+  .noMeals p {
+    margin: 0;
+  }
