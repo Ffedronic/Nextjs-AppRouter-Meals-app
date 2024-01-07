@@ -16,7 +16,7 @@ export default function ImagePicker({ label, name }) {
     const file = event.target.files[0];
 
     if (!file) {
-      setPickedImage(null)
+      setPickedImage(null);
       return;
     }
 
@@ -40,7 +40,6 @@ export default function ImagePicker({ label, name }) {
           )}
         </div>
         <input
-          data-test="test"
           onChange={handleImageChange}
           className={classes.input}
           type="file"
